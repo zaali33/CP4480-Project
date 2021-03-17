@@ -28,11 +28,6 @@ app.use(cookieParser())
 
 let appSecret = 'plmcbdgosihesirbadnapdojauryrgsbjaknpas852972164lokodnshgkhonfshdbks'
 
-app.get('/', (req, res) => {
-    res.send('Messages application started at ')
-    logMessage('Messages application started at ')
-})
-
 app.post('/api/login', (req, res) => {
     let username = req.body.username
     let password = req.body.password
