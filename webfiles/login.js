@@ -20,3 +20,18 @@ function doLogin() {
         }
     })
 }
+
+function start() {
+    $.ajax({
+        url: "/api/start",
+        method: "get",
+        success: function(result) {
+            console.log(result)
+        },
+        error: function(x, t, s) {
+            console.log("error")
+        }
+    })
+}
+
+start()
