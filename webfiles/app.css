@@ -34,7 +34,7 @@ input:focus{
     border: 1px solid var(--main-color);
 }
 
-#login-btn{
+#login-btn, #send-btn{
     background-color: var(--main-color);
     width: 30%;
     margin: auto;
@@ -43,7 +43,7 @@ input:focus{
     cursor: pointer;
 }
 
-#login-btn:hover{
+#login-btn:hover, #send-btn:hover{
     background-color: var(--bg-color);
     border: 1px solid var(--main-color);
 }
@@ -94,7 +94,7 @@ input:focus{
     background-color: var(--bg-color);
     width: 30%;
     margin: 10px;
-    border-radius: 10px;
+    border-radius: 30px;
     border-top-left-radius: 0px;
     padding: 10px;
     float: left;
@@ -104,7 +104,7 @@ input:focus{
     background-color: var(--main-color);
     width: 30%;
     margin: 10px;
-    border-radius: 10px;
+    border-radius: 30px;
     padding: 10px;
     border-top-right-radius: 0px;
     float: right;
@@ -121,4 +121,12 @@ input:focus{
     height: 200px;
     box-shadow: 0 0 10px snow;
     border-radius: 5px;
+}
+
+.selected {
+    border: 3px solid var(--main-color);
+}
+
+.selected:hover{
+    border: 3px solid var(--main-color);
 }
